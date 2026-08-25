@@ -1,9 +1,9 @@
 cask "fluxgit" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.4.1"
-  sha256 arm:   "cdd7b07a4e196c6aa287db80d9cbd9aaf937ddb88a7224aa3c25117cdaeba123",
-         intel: "54c83160c7411ebf99d9ad67c574219531b462acab523785ba794be1da20820b"
+  version "0.4.2"
+  sha256 arm:   "9eff9ad98af486e72ec69a2161ad6fd9e05f59cc487cfacfba973093343b92b1",
+         intel: "aa40ff0a20d6e5df8686831859e3c720378fec466de6d3af202fdb769a7e355c"
 
   url "https://downloads.fluxgit.com/beta/FluxGit_#{version}_#{arch}.dmg"
   name "FluxGit"
