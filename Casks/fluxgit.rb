@@ -7,7 +7,7 @@ cask "fluxgit" do
 
   url "https://downloads.fluxgit.com/beta/FluxGit_#{version}_#{arch}.dmg"
   name "FluxGit"
-  desc "Let AI agents use Git. You approve every write"
+  desc "Git client where AI agents propose changes for human approval"
   homepage "https://fluxgit.com/"
 
   livecheck do
